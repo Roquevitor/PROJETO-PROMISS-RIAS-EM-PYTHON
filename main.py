@@ -14,7 +14,6 @@ import os
 import locale
 from tkinter import filedialog
 
-from PIL import Image
 pdfmetrics.registerFont(TTFont("Arial", "C:\\Windows\\Fonts\\arial.ttf"))
 try:
     locale.setlocale(locale.LC_TIME, "pt_BR.UTF-8")
